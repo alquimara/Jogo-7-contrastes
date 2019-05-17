@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fixedsys Excelsior 3.01'), url('font/FSEX300.woff') format('woff');
+}
+
+/* Main*/
+.brand-main{
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size:70px;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+
+}
+.response_main{
+    margin-top: 100px;
+}
+.container_main{
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    height: 100vh;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+.click{
+    border: solid 2px rgb(255, 31, 93);
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+   
+}
+.blue1{
+    z-index: 2;
+    top: 4px;
+    color: rgb(0, 152, 255);
+}
+
+.shadow1{
+    z-index: 1;
+    left: 3px;
+    top: 2px;
+    color: rgb(133, 28, 255);
+}
+
+.pink1{
+    z-index: 0;
+    left: 5px;
+    color:rgb(255, 31, 93);
+}
+.blue1, .shadow1, .pink1{
+    position: absolute;
+    
+}
+
+
+/* Tutorial*/
+.container button{
+    border: solid 2px rgb(255, 31, 93);
+    background-color: transparent;
+    padding: 8px 50px;
+    color: #fff;
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    margin: auto;
+    display:block;
+    float: right;
+  
+}
+.conteudo_tutorial{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    
+}
+.content .images1 img{
+    height: 300px;
+    margin: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Jogo*/
+.container{
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    height: 100vh;
+    width: 100wh;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+header{
+    width: 100%;
+    padding: 40px 200px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.brand{
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size:42px;
+    position: relative;
+}
+
+.blue, .shadow, .pink{
+    position: absolute;
+    width: 75%;
+}
+
+.blue{
+    z-index: 2;
+    top: 4px;
+    color: rgb(0, 152, 255);
+}
+
+.shadow{
+    z-index: 1;
+    left: 3px;
+    top: 2px;
+    color: rgb(133, 28, 255);
+}
+
+.pink{
+    z-index: 0;
+    left: 5px;
+    color:rgb(255, 31, 93);
+}
+
+.content{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content h3{
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+.content .select{
+    display: block;
+}
+
+.content .images{
+    display: flex;
+    justify-content: center;
+}
+
+.content .images img{
+    height: 250px;
+    margin: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content .response{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
+.content .response button{
+    border: solid 2px rgb(255, 31, 93);
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: 'Fixedsys Excelsior 3.01';
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+
+.content .response .response-status{
+    margin-bottom: 10px;
+    position: relative;
+    width: 826px; 
+}
+
+.content .response .response-status img{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.content .response .response-status .status{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    bottom: -24px;
+    right: 0;
+}
+
+.content .response .response-status .status .icon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: 10px;
+    background-color: rgb(0, 152, 255);
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.content .response .response-status .status span{
+    font-size: 18px;
+    width: 152px;
+    font-family: 'Fixedsys Excelsior 3.01';
+    text-align: left;
+    line-height: 1.4rem;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer .progress{
+    position: relative;
+    width: 33%;
+    height: 40px;
+    padding: 10px 0;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+footer .progress .number{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(133, 28, 255);
+    opacity: 0.5;
+    transition: all 0.5s ease 0s;
+}
+
+#text-progress{
+    display: block;
+    z-index: 100;
+}

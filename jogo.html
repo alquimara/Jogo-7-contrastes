@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Seven Color Contrasts</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="blue"> The Seven Color Contrasts</div>
+                <div class="shadow"> The Seven Color Contrasts</div>
+                <div class="pink"> The Seven Color Contrasts</div>
+            
+            </div>
+        </header>
+        <div class="content">
+            <div class="select">
+                <h3 class="type">Selecione a imagem que melhor representa o contraste de matiz</h3>
+                <div class="images">
+                    <img id="image1" src="img/1_r.jpg" alt="">
+                    <img id="image2" src="img/1_w.jpg" alt="">
+                </div>
+            </div>
+            <div class="response">
+                <div class="response-status">
+                    <img id="response" alt="">
+                    <div class="status">
+                        <div class="icon">
+                            <i class="fas fa-check"></i>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <span id="message"></span>
+                    </div>
+                </div>
+                <button>
+                    Próximo
+                </button>
+        
+            </div>
+            <div class="finish" style="display: none">
+
+            </div>
+        </div>
+        <footer>
+            <div class="progress">
+                <div class="number">
+                </div>
+                <span id="text-progress">
+                    1 de 7 contrastes
+                </span>
+            </div>
+        </footer>
+    </div>
+    <script src="jogo.js"></script>
+
+</body>
+
+</html>
